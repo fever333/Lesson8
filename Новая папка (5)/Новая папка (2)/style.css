@@ -1,0 +1,58 @@
+
+
+
+
+.text    {
+    width: 200px;
+    border: 1px solid;
+    margin: 0 0 2rem 4;
+    padding: 20px;
+}
+
+.b-shadow {
+    font-size: 5rem;
+}
+
+
+.circle {
+    background: lightblue;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    animation: pulsing 2s infinite;
+}
+
+@keyframes pulsing {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+    50% {
+        transform: scale(1, 1);
+        background: red;
+        border-radius: 0;
+    }
+    100% {
+        transform: scale(0.5, 0.5);
+    }
+}
+.circle__cloud {
+    background: cornflowerblue;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    animation: cloud 2s infinite;
+}
+
+
+
+@keyframes cloud {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(35vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

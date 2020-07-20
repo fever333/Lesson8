@@ -1,0 +1,76 @@
+ol {
+    font-size: 2rem;
+}
+
+
+/*ol :nth-child(4){
+    color: red;
+}*/
+
+
+
+/*ol :nth-child(3n) {
+    color: red;
+}*/
+
+
+/*ol :nth-child(3n + 2) {
+    color: red
+}
+*/
+
+
+/*.text {
+    font-size: 2rem;
+    position: relative;
+}
+
+.text::before {
+    content: "BEFORE";
+    color: red;
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+
+.text::after {
+    content: "AFTER";
+    color: purple;
+}*/
+
+
+
+
+.tooltip  {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    text-align: center;
+    
+}
+
+
+
+.tooltip::before {
+    content: "";
+    position: absolute;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-top: 100px solid gray;
+    left: 20%;
+    top: 100%;
+
+}
+
+.text {
+    position: relative;
+
+}
+
+
+.text::before {
+    position: absolute;
+    left: 20%;
+    top: 100%;
+}
